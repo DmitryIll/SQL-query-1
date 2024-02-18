@@ -28,7 +28,7 @@ and district not like "% %";
 
 SELECT payment_id, customer_id, staff_id, rental_id, amount, payment_date, last_update 
 FROM sakila.payment
-where payment_date BETWEEN "2005-06-15" and "2005-06-19"
+where payment_date BETWEEN "2005-06-15" and "2005-06-18 23:59:59"
 and amount > 10;
 ```
 
